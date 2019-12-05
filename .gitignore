@@ -1,4 +1,6 @@
 /sort/node_modules
+/sort/.cache
+/sort/dist
 /maps/dist
 /maps/dist
 /maps/.cache

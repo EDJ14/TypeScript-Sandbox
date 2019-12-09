@@ -1,5 +1,3 @@
-import axios, { AxiosResponse } from 'axios';
+import { UserForm } from './views/UserForm';
 
-axios.get('http://localhost:3000/users').then((res: AxiosResponse) => {
-  console.log(res.data);
-});
+const userForm = new UserForm(document.getElementById('root'));
